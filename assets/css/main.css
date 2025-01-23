@@ -2765,3 +2765,27 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.swiper-slide img {
+  opacity: 1 !important;
+}
+
+.swiper-slide {
+  width: auto !important;
+  max-width: 90px;
+
+}
+.swiper-slide img:hover {
+  opacity: 1 !important;
+}
+
+
+.scale_1-5{
+transform: scale(1.5);
+}
+.scale_2{
+  transform: scale(2);
+  }
+.swiper-slide.scale2-swiper_slide{
+  margin-right: 170px !important;
+  margin-left: 30px !important;
+}
