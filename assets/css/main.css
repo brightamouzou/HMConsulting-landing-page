@@ -145,7 +145,7 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -532,6 +532,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -2779,6 +2780,8 @@ section,
 }
 
 
+
+
 .scale_1-5{
 transform: scale(1.5);
 }
@@ -2788,4 +2791,25 @@ transform: scale(1.5);
 .swiper-slide.scale2-swiper_slide{
   margin-right: 170px !important;
   margin-left: 30px !important;
+}
+
+/*--------------------------------------------------------------
+# Hero section
+--------------------------------------------------------------*/
+
+
+#service-hero h1, #service-hero h2,#service-hero h3,#service-hero h4, #service-hero h5,#service-hero h6,
+#cta :is(h1, h2, h3, h4, h5, h6) 
+{ 
+  font-family: var(--heading-font);
+}
+
+#service-hero{
+  margin-top: 60px !important;
+}
+
+
+
+#service-hero, #cta{
+  font-family: var(--nav-font) !important;
 }
